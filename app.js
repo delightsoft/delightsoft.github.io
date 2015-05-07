@@ -3,7 +3,7 @@ require('./ng-app');
 
 
 
-},{"./ng-app":"C:\\SVN\\_DelightSoftSite\\src\\app\\ng-app.coffee"}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ng-app.coffee":[function(require,module,exports){
+},{"./ng-app":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ng-app.coffee"}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ng-app.coffee":[function(require,module,exports){
 var ngModule;
 
 module.exports = (ngModule = angular.module('app', ['ngRoute', require('./ui/ui'), require('./tableOfContent')])).name;
@@ -40,7 +40,7 @@ ngModule.config([
 
 
 
-},{"./tableOfContent":"C:\\SVN\\_DelightSoftSite\\src\\app\\tableOfContent.coffee","./ui/ui":"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\ui.coffee"}],"C:\\SVN\\_DelightSoftSite\\src\\app\\tableOfContent.coffee":[function(require,module,exports){
+},{"./tableOfContent":"/Users/Trikster/static_sites/DelightSoftSite/src/app/tableOfContent.coffee","./ui/ui":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/ui.coffee"}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/tableOfContent.coffee":[function(require,module,exports){
 var ngModule;
 
 module.exports = (ngModule = angular.module('tableOfContent', ['ngRoute'])).name;
@@ -124,7 +124,7 @@ ngModule.run([
 
 
 
-},{}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\ui.coffee":[function(require,module,exports){
+},{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/ui.coffee":[function(require,module,exports){
 var ngModule, uiCtrl;
 
 module.exports = (ngModule = angular.module('ui/ui', [])).name;
