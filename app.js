@@ -128,11 +128,9 @@ ngModule.run([
 
 
 },{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/ui.coffee":[function(require,module,exports){
-var ngModule, uiCtrl;
+var ngModule;
 
 module.exports = (ngModule = angular.module('ui/ui', [])).name;
-
-uiCtrl = ['$rootScope', '$scope', '$http', '$location', '$timeout', (function($rootScope, $scope, $http, $location, $timeout) {})];
 
 ngModule.directive('gallery', [
   (function() {

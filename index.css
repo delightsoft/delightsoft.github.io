@@ -94,7 +94,7 @@ h3 {
     transform: scale(1);
     -webkit-transform: scale(1); } }
 
-/* line 36, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+/* line 44, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
 .nav {
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   position: fixed;
@@ -114,6 +114,16 @@ h3 {
     top: 0;
     height: 3rem; }
   /* line 30, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  .nav .facebook-logo {
+    position: absolute;
+    right: 5%;
+    top: 0.75rem;
+    height: 1.5rem;
+    opacity: 0.8; }
+    /* line 36, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    .nav .facebook-logo:hover {
+      opacity: 0.5; }
+  /* line 38, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav ul {
     margin: 0;
     margin-left: 5rem;
@@ -121,11 +131,11 @@ h3 {
   @media  (max-width: 768px) {
     .nav {
       display: none; } }
-  /* line 42, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 50, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav li {
     display: inline;
     text-align: center; }
-    /* line 45, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 53, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.first.active ~ hr {
       margin-left: 0%; }
       @media  (max-width: 1150px) {
@@ -134,7 +144,7 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.first.active ~ hr {
           margin-left: 0%; } }
-    /* line 47, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 55, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.second.active ~ hr {
       margin-left: 11%; }
       @media  (max-width: 1150px) {
@@ -143,7 +153,7 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.second.active ~ hr {
           margin-left: 30%; } }
-    /* line 49, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 57, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.third.active ~ hr {
       margin-left: 22%; }
       @media  (max-width: 1150px) {
@@ -152,7 +162,7 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.third.active ~ hr {
           margin-left: 60%; } }
-    /* line 51, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 59, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.fourth.active ~ hr {
       margin-left: 33%; }
       @media  (max-width: 1150px) {
@@ -161,10 +171,10 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.fourth.active ~ hr {
           margin-left: 90%; } }
-    /* line 54, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 62, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.active a {
       opacity: 1; }
-    /* line 56, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 64, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li a {
       display: inline-block;
       width: 11%;
@@ -178,10 +188,10 @@ h3 {
       @media  (max-width: 768px) {
         .nav li a {
           width: 30%; } }
-      /* line 63, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+      /* line 71, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
       .nav li a:hover {
         opacity: 1; }
-  /* line 66, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 74, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav hr {
     height: .15rem;
     width: 10%;
@@ -197,7 +207,7 @@ h3 {
       .nav hr {
         width: 30%; } }
 
-/* line 75, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+/* line 83, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
 .nav-small {
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   position: fixed;
@@ -216,6 +226,16 @@ h3 {
     top: 0;
     height: 3rem; }
   /* line 30, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  .nav-small .facebook-logo {
+    position: absolute;
+    right: 5%;
+    top: 0.75rem;
+    height: 1.5rem;
+    opacity: 0.8; }
+    /* line 36, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    .nav-small .facebook-logo:hover {
+      opacity: 0.5; }
+  /* line 38, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small ul {
     margin: 0;
     margin-left: 5rem;
@@ -223,7 +243,7 @@ h3 {
   @media  (min-width: 768px) {
     .nav-small {
       display: none; } }
-  /* line 80, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 88, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small .menu-icon {
     position: absolute;
     right: 2rem;
@@ -231,8 +251,21 @@ h3 {
     height: 1.3rem;
     opacity: 0.8;
     cursor: pointer; }
+    /* line 95, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    .nav-small .menu-icon:hover {
+      opacity: 0.5; }
+  /* line 97, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  .nav-small .facebook-logo {
+    position: absolute;
+    right: 20%;
+    top: 0.5rem;
+    height: 1.8rem;
+    opacity: 0.8; }
+    /* line 103, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    .nav-small .facebook-logo:hover {
+      opacity: 0.5; }
 
-/* line 88, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+/* line 106, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
 .nav-small-list {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
   position: fixed;
@@ -244,17 +277,17 @@ h3 {
   @media  (min-width: 768px) {
     .nav-small-list {
       display: none; } }
-  /* line 98, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 116, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small-list.show {
     top: 3rem; }
-  /* line 100, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 118, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small-list a {
     display: block;
     color: white;
     background: #4183C4;
     text-decoration: none;
     padding: 1rem; }
-    /* line 106, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 124, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav-small-list a:hover {
       background: #5490ca; }
 
