@@ -1,4 +1,5 @@
 User-Agent: *
 Disallow: /test
 Disallow: /tmpl
+Disallow: /
 Host: delightsoft.ru
