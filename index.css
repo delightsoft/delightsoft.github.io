@@ -665,3 +665,7 @@ a {
     margin-right: 0;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
     float: left; }
+
+/* line 13, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
+#article-contacts td {
+  padding: 6px 0; }
