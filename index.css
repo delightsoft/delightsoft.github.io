@@ -597,6 +597,10 @@ a {
   a:hover {
     text-decoration: underline; }
 
+/* line 28, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_style.sass */
+.margin-top-1rem {
+  margin-top: 1rem; }
+
 /* line 2, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
 #article-dscommon .hblock {
   box-sizing: border-box;

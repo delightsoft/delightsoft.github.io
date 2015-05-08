@@ -94,6 +94,9 @@ ngModule.config([
     }).when('/projects/autopark', {
       templateUrl: '/tmpl/projects/autopark.html',
       controller: setPageTitle('DelightSoft.ru / Проект: Автопарк')
+    }).when('/projects/rms', {
+      templateUrl: '/tmpl/projects/rms.html',
+      controller: setPageTitle('DelightSoft.ru / Проект: RMS (Resource Management System)')
     }).when('/projects/cms', {
       templateUrl: '/tmpl/projects/cms.html',
       controller: setPageTitle('DelightSoft.ru / Проект: CMS (Content Management System)')
