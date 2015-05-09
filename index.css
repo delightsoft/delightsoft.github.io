@@ -138,7 +138,7 @@ h3 {
     /* line 53, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.first.active ~ hr {
       margin-left: 0%; }
-      @media  (max-width: 1150px) {
+      @media  (max-width: 1200px) {
         .nav li.first.active ~ hr {
           margin-left: 0%; } }
       @media  (max-width: 768px) {
@@ -147,7 +147,7 @@ h3 {
     /* line 55, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.second.active ~ hr {
       margin-left: 11%; }
-      @media  (max-width: 1150px) {
+      @media  (max-width: 1200px) {
         .nav li.second.active ~ hr {
           margin-left: 15%; } }
       @media  (max-width: 768px) {
@@ -156,7 +156,7 @@ h3 {
     /* line 57, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.third.active ~ hr {
       margin-left: 22%; }
-      @media  (max-width: 1150px) {
+      @media  (max-width: 1200px) {
         .nav li.third.active ~ hr {
           margin-left: 30%; } }
       @media  (max-width: 768px) {
@@ -165,7 +165,7 @@ h3 {
     /* line 59, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.fourth.active ~ hr {
       margin-left: 33%; }
-      @media  (max-width: 1150px) {
+      @media  (max-width: 1200px) {
         .nav li.fourth.active ~ hr {
           margin-left: 45%; } }
       @media  (max-width: 768px) {
@@ -182,7 +182,7 @@ h3 {
       text-decoration: none;
       color: #ffffff;
       opacity: 0.7; }
-      @media  (max-width: 1150px) {
+      @media  (max-width: 1200px) {
         .nav li a {
           width: 15%; } }
       @media  (max-width: 768px) {
@@ -200,7 +200,7 @@ h3 {
     background: white;
     border: none;
     transition: .3s ease-in-out; }
-    @media  (max-width: 1150px) {
+    @media  (max-width: 1200px) {
       .nav hr {
         width: 15%; } }
     @media  (max-width: 768px) {
@@ -311,7 +311,7 @@ h3 {
 /* line 1, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
 #about {
   padding: 5rem 20%; }
-  @media  (max-width: 992px) {
+  @media  (max-width: 960px) {
     #about {
       padding: 5rem 5%; } }
   /* line 5, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
@@ -393,7 +393,7 @@ h3 {
     width: 80%;
     float: left;
     transition: .3s ease-out; }
-  @media  (max-width: 768px) {
+  @media  (max-width: 600px) {
     /* line 11, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     #main-area .panels {
       width: 100%; }
@@ -407,29 +407,32 @@ h3 {
   /* line 20, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .hide-video #main-area .panels .panel {
     margin: 1rem 20%; }
-  @media  (max-width: 768px) {
+    @media  (max-width: 960px) {
+      .hide-video #main-area .panels .panel {
+        margin: 1rem 15%; } }
+  @media  (max-width: 600px) {
     .hide-video #main-area .panels {
       width: 100%; }
-      /* line 24, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 26, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .hide-video #main-area .panels .panel {
         margin: 1rem 5%; } }
-/* line 26, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 28, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .hide-video .out-panels-title {
   margin: 1rem 20%; }
-  @media  (max-width: 768px) {
+  @media  (max-width: 600px) {
     .hide-video .out-panels-title {
       margin: 1rem 5%; } }
-/* line 30, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 32, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .hide-video .sidebar {
   right: -25%; }
-/* line 32, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 34, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .hide-video .btn-show-video {
   right: 0; }
-  @media  (max-width: 768px) {
+  @media  (max-width: 600px) {
     .hide-video .btn-show-video {
       right: -100%; } }
 
-/* line 37, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 39, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .sidebar {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
   position: fixed;
@@ -439,23 +442,23 @@ h3 {
   right: 0;
   top: 3rem;
   transition: .3s ease-out; }
-  @media  (max-width: 768px) {
+  @media  (max-width: 600px) {
     .sidebar {
       display: none; } }
-  /* line 48, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 50, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .sidebar .video-panel {
     padding: 1rem; }
-  /* line 50, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 52, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .sidebar .btn-panel {
     width: 100%;
     text-align: right;
     font-size: 1rem; }
-    /* line 54, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 56, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .sidebar .btn-panel a {
       margin-right: 0.5rem;
       margin-top: 0.5rem; }
 
-/* line 58, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 60, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .btn-show-video {
   transition: .3s ease-out;
   position: fixed;
@@ -466,21 +469,21 @@ h3 {
   margin-top: 0.5rem;
   z-index: 1000; }
 
-/* line 68, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 70, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .out-panels-title {
   margin: 1rem 15%;
   transition: .3s ease-out;
   opacity: 0.5;
   font-size: 2rem;
   line-height: 1.2; }
-  @media  (max-width: 768px) {
+  @media  (max-width: 600px) {
     .out-panels-title {
       margin: 1rem 5%; } }
 
-/* line 78, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 80, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .panels {
   overflow: hidden; }
-  /* line 80, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 82, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .panels .panel {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
     position: relative;
@@ -489,58 +492,61 @@ h3 {
     margin: 1rem 15%;
     padding: 2rem;
     box-sizing: content-box; }
-    /* line 89, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    @media  (max-width: 960px) {
+      .panels .panel {
+        margin: 1rem 10%; } }
+    /* line 93, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .article-header td {
       padding: 1rem; }
-      /* line 91, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 95, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .article-header td:first-child {
         width: 30%; }
-    /* line 93, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 97, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .article-header img {
       margin: 0; }
-    /* line 95, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 99, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel h4 {
       margin-top: 0;
       margin-bottom: 1rem;
       font-size: 2rem; }
-    /* line 99, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 103, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel img {
       width: 100%;
       margin-bottom: 2rem; }
-      /* line 102, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 106, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel img.width-30 {
         width: 30%; }
-    /* line 104, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 108, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .content-img {
       float: left;
       width: 3rem;
       padding-right: 1rem; }
-      /* line 108, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 112, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .content-img img {
         width: 100%;
         opacity: 0.7; }
-    /* line 111, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 115, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel p {
       margin-top: 0;
       margin-bottom: 2rem; }
-      /* line 114, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 118, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel p + ul, .panels .panel p + ol {
         margin-top: -1.5rem; }
-      /* line 116, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 120, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel p:last-of-type {
         margin-bottom: 0; }
-        /* line 118, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 122, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel p:last-of-type + ul, .panels .panel p:last-of-type + ol {
           margin-top: 0rem; }
-    /* line 120, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 124, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .video-container {
       margin-bottom: 2rem; }
-    /* line 122, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 126, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .screen-shots {
       list-style: none;
       padding: 0;
       overflow: hidden; }
-      /* line 126, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 130, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .screen-shots li {
         position: relative;
         width: 20%;
@@ -548,18 +554,18 @@ h3 {
         margin-left: 1rem;
         opacity: 1;
         cursor: pointer; }
-        /* line 133, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 137, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel .screen-shots li .screen-shots-item {
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
-        /* line 135, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 139, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel .screen-shots li:before {
           content: none; }
-        /* line 138, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 142, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel .screen-shots li:hover .magnifier-icon {
           width: 2rem;
           top: 15%;
           opacity: 0.8; }
-        /* line 143, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 147, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel .screen-shots li .magnifier-icon {
           transition: .1s ease;
           position: absolute;
@@ -569,34 +575,34 @@ h3 {
           left: 0;
           right: 0;
           opacity: 0.5; }
-    /* line 152, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 156, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel ul {
       margin-bottom: 2rem; }
-      /* line 154, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 158, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel ul ul {
         margin: 0.5rem 0 0.5rem 0; }
 
-/* line 157, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 161, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .img-float-right {
   float: right;
   padding: 0.5rem; }
 
-/* line 163, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 167, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .project-short-details tr td {
   vertical-align: top;
   padding-bottom: 1rem; }
-  /* line 166, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 170, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .project-short-details tr td:first-child {
     padding-right: 1rem; }
 
-/* line 170, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 174, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .project-teaser td {
   vertical-align: top; }
-  /* line 172, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 176, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .project-teaser td:first-child {
     width: 40%;
     padding-right: 1rem; }
-  /* line 175, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 179, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .project-teaser td h1 {
     margin-top: 0;
     padding-bottom: 0.5rem;
@@ -619,10 +625,10 @@ html, body {
 html {
   font-size: 100%;
   font-family: 'PTSansRegular', sans-serif; }
-  @media  (max-width: 1240px) {
+  @media  (max-width: 1200px) {
     html {
       font-size: 15px; } }
-  @media  (max-width: 992px) {
+  @media  (max-width: 960px) {
     html {
       font-size: 13px; } }
 
