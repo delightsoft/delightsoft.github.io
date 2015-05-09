@@ -560,49 +560,54 @@ h3 {
         /* line 139, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel .screen-shots li:before {
           content: none; }
-        /* line 142, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
-        .panels .panel .screen-shots li:hover .magnifier-icon {
-          width: 2rem;
-          top: 15%;
-          opacity: 0.8; }
-        /* line 147, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
-        .panels .panel .screen-shots li .magnifier-icon {
-          transition: .1s ease;
-          position: absolute;
-          width: 1.5rem;
-          top: 20%;
-          margin: 0 auto;
-          left: 0;
-          right: 0;
-          opacity: 0.5; }
-    /* line 156, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 141, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    .panels .panel .zooming-img {
+      position: relative;
+      cursor: pointer; }
+      /* line 145, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      .panels .panel .zooming-img:hover .magnifier-icon {
+        width: 2rem;
+        top: 15%;
+        opacity: 0.8; }
+      /* line 149, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      .panels .panel .zooming-img .magnifier-icon {
+        transition: .1s ease;
+        pointer-events: none;
+        position: absolute;
+        width: 1.5rem;
+        top: 20%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        opacity: 0.5; }
+    /* line 161, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel ul {
       margin-bottom: 2rem; }
-      /* line 158, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 163, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel ul ul {
         margin: 0.5rem 0 0.5rem 0; }
 
-/* line 161, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 166, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
 .img-float-right {
   float: right;
   padding: 0.5rem; }
 
-/* line 167, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 172, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
 .project-short-details tr td {
   vertical-align: top;
   padding-bottom: 1rem; }
-  /* line 170, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 175, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
   .project-short-details tr td:first-child {
     padding-right: 1rem; }
 
-/* line 174, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 179, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
 .project-teaser td {
   vertical-align: top; }
-  /* line 176, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 181, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
   .project-teaser td:first-child {
     width: 40%;
     padding-right: 1rem; }
-  /* line 179, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 184, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
   .project-teaser td h1 {
     margin-top: 0;
     padding-bottom: 0.5rem;
@@ -664,15 +669,22 @@ a {
     width: 50%;
     float: left; }
   /* line 7, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
-  #article-dscommon .hblock img {
+  #article-dscommon .hblock .zooming-img {
     box-sizing: border-box;
     width: 50%;
     float: right;
     margin-right: 0;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
     float: left; }
+    /* line 10, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+    #article-dscommon .hblock .zooming-img img:first-child {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+    /* line 12, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+    #article-dscommon .hblock .zooming-img .magnifier-icon {
+      top: 80px;
+      left: 80px;
+      margin: inherit; }
 
-/* line 13, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+/* line 18, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
 #article-contacts td {
   padding-top: 6px;
   padding-right: 6px;
