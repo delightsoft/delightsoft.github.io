@@ -44,7 +44,7 @@
                     <use fill="none" xlink:href="#path-2"></use>
                 </g>
                 <text id="PostgreSQL" opacity="0.805153918" sketch:type="MSTextLayer" font-family="Arial" font-size="18" font-weight="normal" fill="#FFFFFF">
-                    <tspan x="15" y="70">PostgreSQL</tspan>
+                    <tspan x="18" y="71">PostgreSQL</tspan>
                 </text>
             </g>
             <g id="dscommon" transform="translate(265.000000, 139.000000)">
