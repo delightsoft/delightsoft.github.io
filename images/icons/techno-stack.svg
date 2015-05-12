@@ -43,8 +43,8 @@
                     <use fill="#536F8B" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
                     <use fill="none" xlink:href="#path-2"></use>
                 </g>
-                <text id="PostreSQL" sketch:type="MSTextLayer" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">
-                    <tspan x="19" y="70">PostreSQL</tspan>
+                <text id="PostgreSQL" opacity="0.805153918" sketch:type="MSTextLayer" font-family="Arial" font-size="18" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="15" y="70">PostgreSQL</tspan>
                 </text>
             </g>
             <g id="dscommon" transform="translate(265.000000, 139.000000)">
@@ -69,7 +69,7 @@
                     <use fill="#536F8B" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-6"></use>
                     <use fill="none" xlink:href="#path-6"></use>
                 </g>
-                <text id="MS-SQL" sketch:type="MSTextLayer" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <text id="MS-SQL" opacity="0.8" sketch:type="MSTextLayer" font-family="Arial" font-size="16" font-weight="normal" fill="#FFFFFF">
                     <tspan x="16" y="50">MS SQL</tspan>
                 </text>
             </g>
@@ -82,7 +82,7 @@
                     <use fill="#536F8B" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-8"></use>
                     <use fill="none" xlink:href="#path-8"></use>
                 </g>
-                <text id="My-SQL" sketch:type="MSTextLayer" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">
+                <text id="My-SQL" opacity="0.8" sketch:type="MSTextLayer" font-family="Arial" font-size="11" font-weight="normal" fill="#FFFFFF">
                     <tspan x="12.7701149" y="35.3333333">My SQL</tspan>
                 </text>
             </g>
@@ -95,7 +95,7 @@
                     <use fill="#536F8B" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-10"></use>
                     <use fill="none" xlink:href="#path-10"></use>
                 </g>
-                <text id="ORACLE" sketch:type="MSTextLayer" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">
+                <text id="ORACLE" opacity="0.8" sketch:type="MSTextLayer" font-family="Arial" font-size="11" font-weight="normal" fill="#FFFFFF">
                     <tspan x="11.3218391" y="36.3333333">ORACLE</tspan>
                 </text>
             </g>
