@@ -65,19 +65,16 @@ ngModule.directive('scrollWrapper', [
             mouseWheel: true,
             interactiveScrollbars: true,
             shrinkScrollbars: 'scale',
-            fadeScrollbars: true
+            fadeScrollbars: true,
+            resizePolling: 400
           });
-        }));
-        $timeout((function() {
-          scroll.refresh();
-        }), 1000);
-        $scope.$on('$destroy', (function() {
-          scroll.destroy();
+          scroll._resize();
         }));
         $scope.$on('video-toggled', (function() {
-          $timeout((function() {
-            scroll.refresh();
-          }), 400);
+          scroll._resize();
+        }));
+        $scope.$on('$destroy', (function() {
+          scroll.destroy();
         }));
       })
     };
