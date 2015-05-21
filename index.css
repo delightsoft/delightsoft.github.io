@@ -19,39 +19,39 @@
   font-style: normal;
   font-weight: normal; }
 
-/* line 47, C:/SVN/_DelightSoftSite/src/sass/partials/_fonts.sass */
+/* line 47, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_fonts.sass */
 h1 {
   font-size: 4.25rem;
   line-height: 4.5rem;
   margin-top: 2.25rem;
   margin-bottom: 0rem; }
 
-/* line 53, C:/SVN/_DelightSoftSite/src/sass/partials/_fonts.sass */
+/* line 53, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_fonts.sass */
 h2 {
   font-size: 2.625rem;
   line-height: 3.375rem;
   margin-top: 2.25rem;
   margin-bottom: 1.125rem; }
 
-/* line 59, C:/SVN/_DelightSoftSite/src/sass/partials/_fonts.sass */
+/* line 59, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_fonts.sass */
 h3 {
   font-size: 1.625rem;
   line-height: 2.25rem;
   margin-top: 1.125rem;
   margin-bottom: 1.125rem; }
 
-/* line 1, C:/SVN/_DelightSoftSite/src/sass/partials/_scroll.sass */
+/* line 1, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_scroll.sass */
 .scroll-wrapper {
   position: relative;
   height: 100%;
   overflow-y: scroll;
   margin-right: -100px;
   padding-right: 100px; }
-  /* line 7, C:/SVN/_DelightSoftSite/src/sass/partials/_scroll.sass */
+  /* line 7, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_scroll.sass */
   .scroll-wrapper .iScrollVerticalScrollbar {
     right: 101px !important; }
 
-/* line 44, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+/* line 44, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
 .nav {
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   position: fixed;
@@ -64,23 +64,23 @@ h3 {
   z-index: 1000;
   padding: 0 5%;
   margin: 0; }
-  /* line 25, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 25, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav .logo-img {
     position: absolute;
     left: 5%;
     top: 0;
     height: 3rem; }
-  /* line 30, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 30, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav .facebook-logo {
     position: absolute;
     right: 5%;
     top: 0.75rem;
     height: 1.5rem;
     opacity: 0.8; }
-    /* line 36, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 36, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav .facebook-logo:hover {
       opacity: 0.5; }
-  /* line 38, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 38, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav ul {
     margin: 0;
     margin-left: 5rem;
@@ -88,11 +88,11 @@ h3 {
   @media  (max-width: 768px) {
     .nav {
       display: none; } }
-  /* line 50, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 50, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav li {
     display: inline;
     text-align: center; }
-    /* line 53, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 53, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.first.active ~ hr {
       margin-left: 0%; }
       @media  (max-width: 1200px) {
@@ -101,7 +101,7 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.first.active ~ hr {
           margin-left: 0%; } }
-    /* line 55, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 55, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.second.active ~ hr {
       margin-left: 11%; }
       @media  (max-width: 1200px) {
@@ -110,7 +110,7 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.second.active ~ hr {
           margin-left: 30%; } }
-    /* line 57, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 57, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.third.active ~ hr {
       margin-left: 22%; }
       @media  (max-width: 1200px) {
@@ -119,7 +119,7 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.third.active ~ hr {
           margin-left: 60%; } }
-    /* line 59, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 59, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.fourth.active ~ hr {
       margin-left: 33%; }
       @media  (max-width: 1200px) {
@@ -128,10 +128,10 @@ h3 {
       @media  (max-width: 768px) {
         .nav li.fourth.active ~ hr {
           margin-left: 90%; } }
-    /* line 62, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 62, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li.active a {
       opacity: 1; }
-    /* line 64, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 64, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav li a {
       display: inline-block;
       width: 11%;
@@ -145,10 +145,10 @@ h3 {
       @media  (max-width: 768px) {
         .nav li a {
           width: 30%; } }
-      /* line 71, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+      /* line 71, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
       .nav li a:hover {
         opacity: 1; }
-  /* line 74, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 74, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav hr {
     height: .15rem;
     width: 10%;
@@ -164,7 +164,7 @@ h3 {
       .nav hr {
         width: 30%; } }
 
-/* line 83, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+/* line 83, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
 .nav-small {
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
   position: fixed;
@@ -176,23 +176,23 @@ h3 {
   color: white;
   z-index: 1000;
   height: 3rem; }
-  /* line 25, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 25, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small .logo-img {
     position: absolute;
     left: 5%;
     top: 0;
     height: 3rem; }
-  /* line 30, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 30, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small .facebook-logo {
     position: absolute;
     right: 5%;
     top: 0.75rem;
     height: 1.5rem;
     opacity: 0.8; }
-    /* line 36, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 36, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav-small .facebook-logo:hover {
       opacity: 0.5; }
-  /* line 38, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 38, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small ul {
     margin: 0;
     margin-left: 5rem;
@@ -200,7 +200,7 @@ h3 {
   @media  (min-width: 768px) {
     .nav-small {
       display: none; } }
-  /* line 88, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 88, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small .menu-icon {
     position: absolute;
     right: 2rem;
@@ -208,21 +208,21 @@ h3 {
     height: 1.3rem;
     opacity: 0.8;
     cursor: pointer; }
-    /* line 95, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 95, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav-small .menu-icon:hover {
       opacity: 0.5; }
-  /* line 97, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 97, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small .facebook-logo {
     position: absolute;
     right: 20%;
     top: 0.5rem;
     height: 1.8rem;
     opacity: 0.8; }
-    /* line 103, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 103, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav-small .facebook-logo:hover {
       opacity: 0.5; }
 
-/* line 106, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+/* line 106, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
 .nav-small-list {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
   position: fixed;
@@ -234,21 +234,21 @@ h3 {
   @media  (min-width: 768px) {
     .nav-small-list {
       display: none; } }
-  /* line 116, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 116, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small-list.show {
     top: 3rem; }
-  /* line 118, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+  /* line 118, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
   .nav-small-list a {
     display: block;
     color: white;
     background: #4183C4;
     text-decoration: none;
     padding: 1rem; }
-    /* line 124, C:/SVN/_DelightSoftSite/src/sass/partials/_nav.sass */
+    /* line 124, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_nav.sass */
     .nav-small-list a:hover {
       background: #5490ca; }
 
-/* line 1, C:/SVN/_DelightSoftSite/src/sass/partials/_video.sass */
+/* line 1, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_video.sass */
 .video-container {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
   position: relative;
@@ -257,7 +257,7 @@ h3 {
   overflow: hidden;
   max-width: 100%; }
 
-/* line 12, C:/SVN/_DelightSoftSite/src/sass/partials/_video.sass */
+/* line 12, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_video.sass */
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
@@ -265,20 +265,20 @@ h3 {
   width: 100%;
   height: 100%; }
 
-/* line 1, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+/* line 1, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
 #about {
   padding: 5rem 20%; }
   @media  (max-width: 960px) {
     #about {
       padding: 5rem 5%; } }
-  /* line 5, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+  /* line 5, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
   #about h3 {
     font-size: 2.5rem;
     opacity: 0.4; }
-  /* line 9, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+  /* line 9, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
   #about .projects-title h3 {
     display: inline-block; }
-  /* line 11, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+  /* line 11, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
   #about .projects-title .founder-info {
     display: inline-block;
     opacity: 0.4;
@@ -286,7 +286,7 @@ h3 {
     line-height: 3.25rem;
     margin-top: 1.125rem;
     margin-bottom: 1.125rem; }
-  /* line 18, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+  /* line 18, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
   #about .panel {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
     position: relative;
@@ -295,19 +295,19 @@ h3 {
     padding: 1rem;
     margin-bottom: 3rem;
     box-sizing: content-box; }
-    /* line 26, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+    /* line 26, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
     #about .panel h4 {
       margin-top: 0;
       font-size: 1.2rem; }
-    /* line 31, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+    /* line 31, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
     #about .panel table tr td {
       padding: 0 0.5rem 1rem 0;
       vertical-align: top; }
-    /* line 37, C:/SVN/_DelightSoftSite/src/sass/partials/_about.sass */
+    /* line 37, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_about.sass */
     #about .panel.project table tr td:first-child {
       font-weight: bold; }
 
-/* line 1, C:/SVN/_DelightSoftSite/src/sass/partials/_buttons.sass */
+/* line 1, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_buttons.sass */
 .btn {
   text-decoration: none;
   color: #FFF;
@@ -327,12 +327,12 @@ h3 {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-  /* line 24, C:/SVN/_DelightSoftSite/src/sass/partials/_buttons.sass */
+  /* line 24, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_buttons.sass */
   .btn:hover {
     background-color: #2bbbad;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
-/* line 3, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 3, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 #main-area {
   transition: .3s ease-out;
   box-sizing: border-box;
@@ -344,7 +344,7 @@ h3 {
   width: 75%;
   height: 100%;
   overflow: hidden; }
-  /* line 12, C:/SVN/_DelightSoftSite/src/sass/lib/susy/output/support/_clearfix.scss */
+  /* line 12, /Users/Trikster/static_sites/DelightSoftSite/src/sass/lib/susy/output/support/_clearfix.scss */
   #main-area:after {
     content: " ";
     display: block;
@@ -352,7 +352,7 @@ h3 {
   @media  (max-width: 600px) {
     #main-area {
       width: 100%; } }
-  /* line 14, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 14, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   #main-area .body {
     margin-left: 8.69565%;
     box-sizing: border-box;
@@ -372,46 +372,46 @@ h3 {
         box-sizing: border-box;
         width: 100%;
         float: left; } }
-    /* line 28, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 28, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     #main-area .body .panels {
       width: 100%;
       transition: .3s ease-out; }
-      /* line 31, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 31, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       #main-area .body .panels .panel {
         margin: 1rem; }
 
-/* line 35, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 35, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .hide-video #main-area {
   width: 100%; }
-  /* line 37, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 37, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .hide-video #main-area .body {
     margin-left: 8.33333%;
     box-sizing: border-box;
     width: 83.33333%;
     float: left; }
-  /* line 42, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 42, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .hide-video #main-area .panels .panel {
     margin: 1rem; }
   @media  (max-width: 600px) {
     .hide-video #main-area .panels {
       width: 100%; }
-      /* line 46, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 46, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .hide-video #main-area .panels .panel {
         margin: 1rem 5%; } }
-/* line 48, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 48, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .hide-video .out-panels-title {
   margin: 1rem; }
-/* line 50, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 50, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .hide-video .sidebar {
   right: -25%; }
-/* line 52, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 52, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .hide-video .btn-show-video {
   right: 0; }
   @media  (max-width: 600px) {
     .hide-video .btn-show-video {
       right: -100%; } }
 
-/* line 57, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 57, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .sidebar {
   transition: .3s ease-out;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
@@ -425,20 +425,20 @@ h3 {
   @media  (max-width: 600px) {
     .sidebar {
       display: none; } }
-  /* line 69, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 69, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .sidebar .video-panel {
     padding: 1rem; }
-  /* line 71, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 71, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .sidebar .btn-panel {
     width: 100%;
     text-align: right;
     font-size: 1rem; }
-    /* line 75, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 75, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .sidebar .btn-panel a {
       margin-right: 0.5rem;
       margin-top: 0.5rem; }
 
-/* line 79, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 79, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .btn-show-video {
   transition: .3s ease-out;
   position: fixed;
@@ -449,7 +449,7 @@ h3 {
   margin-top: 0.5rem;
   z-index: 1000; }
 
-/* line 89, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 89, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .out-panels-title {
   margin: 1rem;
   transition: .3s ease-out;
@@ -457,10 +457,10 @@ h3 {
   font-size: 2rem;
   line-height: 1.2; }
 
-/* line 96, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+/* line 96, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
 .panels {
   overflow: hidden; }
-  /* line 98, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+  /* line 98, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
   .panels .panel {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
     position: relative;
@@ -469,58 +469,58 @@ h3 {
     margin: 1rem;
     padding: 2rem;
     box-sizing: content-box; }
-    /* line 107, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 107, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .article-header td {
       padding: 1rem; }
-      /* line 109, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 109, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .article-header td:first-child {
         width: 30%; }
-    /* line 111, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 111, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .article-header img {
       margin: 0; }
-    /* line 113, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 113, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel h4 {
       margin-top: 0;
       margin-bottom: 1rem;
       font-size: 2rem; }
-    /* line 117, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 117, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel img {
       width: 100%;
       margin-bottom: 2rem; }
-      /* line 120, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 120, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel img.width-30 {
         width: 30%; }
-    /* line 122, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 122, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .content-img {
       float: left;
       width: 3rem;
       padding-right: 1rem; }
-      /* line 126, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 126, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .content-img img {
         width: 100%;
         opacity: 0.7; }
-    /* line 129, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 129, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel p {
       margin-top: 0;
       margin-bottom: 2rem; }
-      /* line 132, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 132, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel p + ul, .panels .panel p + ol {
         margin-top: -1.5rem; }
-      /* line 134, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 134, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel p:last-of-type {
         margin-bottom: 0; }
-        /* line 136, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 136, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel p:last-of-type + ul, .panels .panel p:last-of-type + ol {
           margin-top: 0rem; }
-    /* line 138, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 138, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .video-container {
       margin-bottom: 2rem; }
-    /* line 140, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 140, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .screen-shots {
       list-style: none;
       padding: 0;
       overflow: hidden; }
-      /* line 144, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 144, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .screen-shots li {
         position: relative;
         width: 20%;
@@ -528,22 +528,22 @@ h3 {
         margin-left: 1rem;
         opacity: 1;
         cursor: pointer; }
-        /* line 151, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 151, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel .screen-shots li .screen-shots-item {
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
-        /* line 153, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+        /* line 153, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
         .panels .panel .screen-shots li:before {
           content: none; }
-    /* line 155, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 155, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel .zooming-img {
       position: relative;
       cursor: pointer; }
-      /* line 159, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 159, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .zooming-img:hover .magnifier-icon {
         width: 2rem;
         top: 15%;
         opacity: 0.8; }
-      /* line 163, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 163, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel .zooming-img .magnifier-icon {
         transition: .1s ease;
         pointer-events: none;
@@ -554,14 +554,14 @@ h3 {
         left: 0;
         right: 0;
         opacity: 0.5; }
-    /* line 173, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+    /* line 173, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
     .panels .panel ul {
       margin-bottom: 2rem; }
-      /* line 175, C:/SVN/_DelightSoftSite/src/sass/partials/_main-area.sass */
+      /* line 175, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_main-area.sass */
       .panels .panel ul ul {
         margin: 0.5rem 0 0.5rem 0; }
 
-/* line 1, C:/SVN/_DelightSoftSite/src/sass/partials/_style.sass */
+/* line 1, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_style.sass */
 html, body {
   position: relative;
   height: 100%;
@@ -573,7 +573,7 @@ html, body {
   line-height: 1.59;
   background: url('./images/bg_grey.png') repeat top; }
 
-/* line 13, C:/SVN/_DelightSoftSite/src/sass/partials/_style.sass */
+/* line 13, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_style.sass */
 html {
   font-size: 100%;
   font-family: 'PTSansRegular', sans-serif; }
@@ -584,84 +584,84 @@ html {
     html {
       font-size: 13px; } }
 
-/* line 22, C:/SVN/_DelightSoftSite/src/sass/partials/_style.sass */
+/* line 22, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_style.sass */
 a {
   color: #3f51b5;
   text-decoration: none; }
-  /* line 25, C:/SVN/_DelightSoftSite/src/sass/partials/_style.sass */
+  /* line 25, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_style.sass */
   a:hover {
     text-decoration: underline; }
-  /* line 28, C:/SVN/_DelightSoftSite/src/sass/partials/_style.sass */
+  /* line 28, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_style.sass */
   a.btn:hover {
     text-decoration: none; }
 
-/* line 31, C:/SVN/_DelightSoftSite/src/sass/partials/_style.sass */
+/* line 31, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_style.sass */
 .margin-top-1rem {
   margin-top: 1rem; }
 
-/* line 2, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+/* line 2, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
 #article-dscommon .hblock {
   box-sizing: border-box;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  /* line 12, C:/SVN/_DelightSoftSite/src/sass/lib/susy/output/support/_clearfix.scss */
+  /* line 12, /Users/Trikster/static_sites/DelightSoftSite/src/sass/lib/susy/output/support/_clearfix.scss */
   #article-dscommon .hblock:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 5, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+  /* line 5, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
   #article-dscommon .hblock ul {
     box-sizing: border-box;
     width: 50%;
     float: left; }
-  /* line 7, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+  /* line 7, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
   #article-dscommon .hblock .zooming-img {
     box-sizing: border-box;
     width: 50%;
     float: right;
     margin-right: 0;
     float: left; }
-    /* line 10, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+    /* line 10, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
     #article-dscommon .hblock .zooming-img img:first-child {
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
-    /* line 12, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+    /* line 12, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
     #article-dscommon .hblock .zooming-img .magnifier-icon {
       top: 80px;
       left: 80px;
       margin: inherit; }
 
-/* line 18, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+/* line 18, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
 #article-contacts td {
   padding-top: 6px;
   padding-right: 6px;
   padding-bottom: 6px; }
 
-/* line 24, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+/* line 24, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
 #article-autopark .img-float-right {
   float: right;
   padding: 0.5rem; }
 
-/* line 31, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+/* line 31, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
 #article-company .project-short-details tr td {
   vertical-align: top;
   padding-bottom: 1rem; }
-  /* line 34, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+  /* line 34, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
   #article-company .project-short-details tr td:first-child {
     padding-right: 1rem; }
 
-/* line 41, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+/* line 41, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
 .hide-video #article-projects .project-teaser td:first-child {
   width: 30%; }
 
-/* line 46, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+/* line 46, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
 #article-projects .project-teaser td {
   vertical-align: top; }
-  /* line 48, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+  /* line 48, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
   #article-projects .project-teaser td:first-child {
     width: 40%;
     padding-right: 1rem; }
-  /* line 51, C:/SVN/_DelightSoftSite/src/sass/partials/_article.sass */
+  /* line 51, /Users/Trikster/static_sites/DelightSoftSite/src/sass/partials/_article.sass */
   #article-projects .project-teaser td h1 {
     margin-top: 0;
     padding-bottom: 0.5rem;

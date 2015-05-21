@@ -7,7 +7,7 @@ require('./ng-app');
 
 
 
-},{"./ng-app":"C:\\SVN\\_DelightSoftSite\\src\\app\\ng-app.coffee","./ui/google-analytics":"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\google-analytics.coffee","./ui/yandex-metrika":"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\yandex-metrika.coffee"}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ng-app.coffee":[function(require,module,exports){
+},{"./ng-app":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ng-app.coffee","./ui/google-analytics":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/google-analytics.coffee","./ui/yandex-metrika":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/yandex-metrika.coffee"}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ng-app.coffee":[function(require,module,exports){
 var IScroll, ngModule;
 
 IScroll = require('../../static/libs/iscroll-5.1.3/iscroll');
@@ -90,7 +90,7 @@ ngModule.config([
 
 
 
-},{"../../static/libs/iscroll-5.1.3/iscroll":"C:\\SVN\\_DelightSoftSite\\static\\libs\\iscroll-5.1.3\\iscroll.js","./tableOfContent":"C:\\SVN\\_DelightSoftSite\\src\\app\\tableOfContent.coffee","./ui/ui":"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\ui.coffee"}],"C:\\SVN\\_DelightSoftSite\\src\\app\\tableOfContent.coffee":[function(require,module,exports){
+},{"../../static/libs/iscroll-5.1.3/iscroll":"/Users/Trikster/static_sites/DelightSoftSite/static/libs/iscroll-5.1.3/iscroll.js","./tableOfContent":"/Users/Trikster/static_sites/DelightSoftSite/src/app/tableOfContent.coffee","./ui/ui":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/ui.coffee"}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/tableOfContent.coffee":[function(require,module,exports){
 var ngModule;
 
 module.exports = (ngModule = angular.module('tableOfContent', ['ngRoute'])).name;
@@ -177,7 +177,7 @@ ngModule.run([
 
 
 
-},{}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\google-analytics.coffee":[function(require,module,exports){
+},{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/google-analytics.coffee":[function(require,module,exports){
 (function(i, s, o, g, r, a, m) {
   i['GoogleAnalyticsObject'] = r;
   i[r] = i[r] || function() {
@@ -197,7 +197,7 @@ ga('send', 'pageview');
 
 
 
-},{}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\ui.coffee":[function(require,module,exports){
+},{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/ui.coffee":[function(require,module,exports){
 var ngModule;
 
 module.exports = (ngModule = angular.module('ui/ui', [])).name;
@@ -328,7 +328,7 @@ ngModule.directive('toggleMenu', [
 
 
 
-},{}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\yandex-metrika.coffee":[function(require,module,exports){
+},{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/yandex-metrika.coffee":[function(require,module,exports){
 (function(d, w, c) {
   var f, n, s;
   (w[c] = w[c] || []).push(function() {
@@ -362,7 +362,7 @@ ngModule.directive('toggleMenu', [
 
 
 
-},{}],"C:\\SVN\\_DelightSoftSite\\static\\libs\\iscroll-5.1.3\\iscroll.js":[function(require,module,exports){
+},{}],"/Users/Trikster/static_sites/DelightSoftSite/static/libs/iscroll-5.1.3/iscroll.js":[function(require,module,exports){
 /*! iScroll v5.1.3 ~ (c) 2008-2014 Matteo Spinelli ~ http://cubiq.org/license */
 (function (window, document, Math) {
 var rAF = window.requestAnimationFrame	||
