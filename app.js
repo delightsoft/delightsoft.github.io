@@ -7,7 +7,7 @@ require('./ng-app');
 
 
 
-},{"./ng-app":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ng-app.coffee","./ui/google-analytics":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/google-analytics.coffee","./ui/yandex-metrika":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/yandex-metrika.coffee"}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ng-app.coffee":[function(require,module,exports){
+},{"./ng-app":"C:\\SVN\\_DelightSoftSite\\src\\app\\ng-app.coffee","./ui/google-analytics":"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\google-analytics.coffee","./ui/yandex-metrika":"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\yandex-metrika.coffee"}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ng-app.coffee":[function(require,module,exports){
 var IScroll, ngModule;
 
 IScroll = require('../../static/libs/iscroll-5.1.3/iscroll');
@@ -29,6 +29,9 @@ ngModule.run([
       $('body').toggleClass('hide-video');
       $rootScope.$broadcast('video-toggled');
     });
+    $rootScope.callBakModal = {
+      isShown: false
+    };
     firstTime = true;
     $rootScope.$on('$routeChangeSuccess', (function(ev) {
       if (firstTime) {
@@ -90,7 +93,7 @@ ngModule.config([
 
 
 
-},{"../../static/libs/iscroll-5.1.3/iscroll":"/Users/Trikster/static_sites/DelightSoftSite/static/libs/iscroll-5.1.3/iscroll.js","./tableOfContent":"/Users/Trikster/static_sites/DelightSoftSite/src/app/tableOfContent.coffee","./ui/ui":"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/ui.coffee"}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/tableOfContent.coffee":[function(require,module,exports){
+},{"../../static/libs/iscroll-5.1.3/iscroll":"C:\\SVN\\_DelightSoftSite\\static\\libs\\iscroll-5.1.3\\iscroll.js","./tableOfContent":"C:\\SVN\\_DelightSoftSite\\src\\app\\tableOfContent.coffee","./ui/ui":"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\ui.coffee"}],"C:\\SVN\\_DelightSoftSite\\src\\app\\tableOfContent.coffee":[function(require,module,exports){
 var ngModule;
 
 module.exports = (ngModule = angular.module('tableOfContent', ['ngRoute'])).name;
@@ -108,6 +111,15 @@ ngModule.config([
     $routeProvider.when('/', {
       templateUrl: '/tmpl/index.html',
       controller: setPageTitle('DelightSoft.ru')
+    }).when('/database', {
+      templateUrl: '/tmpl/database.html',
+      controller: setPageTitle('DelightSoft.ru / База данных')
+    }).when('/web-interface', {
+      templateUrl: '/tmpl/web-interface.html',
+      controller: setPageTitle('DelightSoft.ru / Веб-интерфейс')
+    }).when('/mobility', {
+      templateUrl: '/tmpl/mobility.html',
+      controller: setPageTitle('DelightSoft.ru / Мобильность')
     }).when('/dscommon', {
       templateUrl: '/tmpl/dscommon/index.html',
       controller: setPageTitle('DelightSoft.ru / DSCommon')
@@ -177,7 +189,7 @@ ngModule.run([
 
 
 
-},{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/google-analytics.coffee":[function(require,module,exports){
+},{}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\google-analytics.coffee":[function(require,module,exports){
 (function(i, s, o, g, r, a, m) {
   i['GoogleAnalyticsObject'] = r;
   i[r] = i[r] || function() {
@@ -197,7 +209,7 @@ ga('send', 'pageview');
 
 
 
-},{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/ui.coffee":[function(require,module,exports){
+},{}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\ui.coffee":[function(require,module,exports){
 var ngModule;
 
 module.exports = (ngModule = angular.module('ui/ui', [])).name;
@@ -218,6 +230,47 @@ ngModule.directive('gallery', [
             src: './images/screenshots/' + params.title + '/screen0' + i + '.jpg',
             w: 1440,
             h: 773
+          });
+        }
+        openPhotoSwipe = (function(index) {
+          var gallery, options, pswpElement;
+          pswpElement = document.querySelectorAll('.pswp')[0];
+          options = {
+            index: index,
+            history: false,
+            focus: false,
+            showAnimationDuration: 0,
+            hideAnimationDuration: 0
+          };
+          gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, pictures, options);
+          gallery.init();
+        });
+        $scope.openPic = (function(index) {
+          openPhotoSwipe(index);
+        });
+      })
+    };
+  })
+]);
+
+ngModule.directive('gallery2', [
+  (function() {
+    return {
+      restrict: 'A',
+      scope: true,
+      link: (function($scope, element, attrs) {
+        var j, len, openPhotoSwipe, params, pictures, ref, s;
+        pictures = [];
+        if (attrs.gallery) {
+          params = $scope.$eval(attrs.gallery);
+        }
+        ref = ['data', 'interface', 'group'];
+        for (j = 0, len = ref.length; j < len; j++) {
+          s = ref[j];
+          pictures.push({
+            src: './images/service/' + s + '.jpg',
+            w: 1250,
+            h: 651
           });
         }
         openPhotoSwipe = (function(index) {
@@ -326,9 +379,59 @@ ngModule.directive('toggleMenu', [
   })
 ]);
 
+ngModule.directive('callBackModal', [
+  '$rootScope', '$http', (function($rootScope, $http) {
+    return {
+      restrict: 'A',
+      link: (function($scope, element, attrs) {
+        $scope.request = {
+          name: null,
+          phone: null,
+          email: null,
+          send: (function() {
+            $rootScope.callBakModal.isShown = false;
+            $http.post("https://mandrillapp.com/api/1.0/messages/send.json", {
+              key: 'XrhYSIo5ZAQ6Dcbp5ItPDA',
+              message: {
+                subject: 'Заявка с сайта delightsoft.ru',
+                html: '<h2>Заявка с сайта delightsoft.ru</h2><ul><li>' + $scope.request.name + '</li><li>' + $scope.request.phone + '</li><li>' + $scope.request.email + '</li></ul>',
+                text: 'Имя: ' + $scope.request.name + ', тел.: ' + $scope.request.phone + ', email.: ' + $scope.request.email,
+                from_email: 'info@delightsoft.ru',
+                to: [
+                  {
+                    email: 'admin@delightsoft.ru',
+                    name: 'admin',
+                    type: 'to'
+                  }, {
+                    email: 'pepelazz00@gmail.com',
+                    name: 'pepelazz',
+                    type: 'to'
+                  }, {
+                    email: 'zork33@gmail.com',
+                    name: 'zork',
+                    type: 'to'
+                  }
+                ]
+              }
+            }).success((function(data) {
+              console.info(data);
+            })).error((function(data) {
+              console.error('server not respond', data);
+            }));
+            $scope.request.name = null;
+            $scope.request.phone = null;
+            $scope.request.email = null;
+            return false;
+          })
+        };
+      })
+    };
+  })
+]);
 
 
-},{}],"/Users/Trikster/static_sites/DelightSoftSite/src/app/ui/yandex-metrika.coffee":[function(require,module,exports){
+
+},{}],"C:\\SVN\\_DelightSoftSite\\src\\app\\ui\\yandex-metrika.coffee":[function(require,module,exports){
 (function(d, w, c) {
   var f, n, s;
   (w[c] = w[c] || []).push(function() {
@@ -362,7 +465,7 @@ ngModule.directive('toggleMenu', [
 
 
 
-},{}],"/Users/Trikster/static_sites/DelightSoftSite/static/libs/iscroll-5.1.3/iscroll.js":[function(require,module,exports){
+},{}],"C:\\SVN\\_DelightSoftSite\\static\\libs\\iscroll-5.1.3\\iscroll.js":[function(require,module,exports){
 /*! iScroll v5.1.3 ~ (c) 2008-2014 Matteo Spinelli ~ http://cubiq.org/license */
 (function (window, document, Math) {
 var rAF = window.requestAnimationFrame	||
