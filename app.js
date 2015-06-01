@@ -111,14 +111,17 @@ ngModule.config([
     $routeProvider.when('/', {
       templateUrl: '/tmpl/index.html',
       controller: setPageTitle('DelightSoft.ru')
-    }).when('/database', {
-      templateUrl: '/tmpl/database.html',
+    }).when('/service', {
+      templateUrl: '/tmpl/service/index.html',
+      controller: setPageTitle('DelightSoft.ru / Наши услуги')
+    }).when('/service/database', {
+      templateUrl: '/tmpl/service/database.html',
       controller: setPageTitle('DelightSoft.ru / База данных')
-    }).when('/web-interface', {
-      templateUrl: '/tmpl/web-interface.html',
+    }).when('/service/web-interface', {
+      templateUrl: '/tmpl/service/web-interface.html',
       controller: setPageTitle('DelightSoft.ru / Веб-интерфейс')
-    }).when('/mobility', {
-      templateUrl: '/tmpl/mobility.html',
+    }).when('/service/mobility', {
+      templateUrl: '/tmpl/service/mobility.html',
       controller: setPageTitle('DelightSoft.ru / Мобильность')
     }).when('/dscommon', {
       templateUrl: '/tmpl/dscommon/index.html',
