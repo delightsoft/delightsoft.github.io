@@ -66,6 +66,7 @@ ngModule.directive('scrollWrapper', [
           scroll = new IScroll(element[0], {
             scrollbars: true,
             mouseWheel: true,
+            click: true,
             interactiveScrollbars: true,
             shrinkScrollbars: 'scale',
             fadeScrollbars: true,
