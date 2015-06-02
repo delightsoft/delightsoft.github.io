@@ -116,13 +116,13 @@ ngModule.config([
       controller: setPageTitle('DelightSoft.ru / Наши услуги')
     }).when('/service/database', {
       templateUrl: '/tmpl/service/database.html',
-      controller: setPageTitle('DelightSoft.ru / База данных')
+      controller: setPageTitle('DelightSoft.ru / Зачем нужна единая База Данных?')
     }).when('/service/web-interface', {
       templateUrl: '/tmpl/service/web-interface.html',
-      controller: setPageTitle('DelightSoft.ru / Веб-интерфейс')
+      controller: setPageTitle('DelightSoft.ru / Зачем нужен современный веб-интерфейс?')
     }).when('/service/mobility', {
       templateUrl: '/tmpl/service/mobility.html',
-      controller: setPageTitle('DelightSoft.ru / Мобильность')
+      controller: setPageTitle('DelightSoft.ru / Информационная система, для работы вне офиса')
     }).when('/dscommon', {
       templateUrl: '/tmpl/dscommon/index.html',
       controller: setPageTitle('DelightSoft.ru / DSCommon')
