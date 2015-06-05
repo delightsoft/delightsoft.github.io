@@ -123,7 +123,7 @@ ngModule.config([
       controller: setPageTitle('DelightSoft.ru / Зачем нужен современный веб-интерфейс?')
     }).when('/service/mobility', {
       templateUrl: '/tmpl/service/mobility.html',
-      controller: setPageTitle('DelightSoft.ru / Информационная система, для работы вне офиса')
+      controller: setPageTitle('DelightSoft.ru / Информационная система для работы вне офиса')
     }).when('/dscommon', {
       templateUrl: '/tmpl/dscommon/index.html',
       controller: setPageTitle('DelightSoft.ru / DSCommon')
@@ -133,6 +133,12 @@ ngModule.config([
     }).when('/dscommon/server', {
       templateUrl: '/tmpl/dscommon/server/index.html',
       controller: setPageTitle('DelightSoft.ru / DSCommon Сервер')
+    }).when('/articles', {
+      templateUrl: '/tmpl/articles/index.html',
+      controller: setPageTitle('DelightSoft.ru / Статьи')
+    }).when('/articles/business-process', {
+      templateUrl: '/tmpl/articles/business-process.html',
+      controller: setPageTitle('DelightSoft.ru / DSCommon: Автоматизация бизнес-процессов')
     }).when('/projects', {
       templateUrl: '/tmpl/projects/index.html',
       controller: setPageTitle('DelightSoft.ru / Проекты')
@@ -403,16 +409,8 @@ ngModule.directive('callBackModal', [
                 from_email: 'info@delightsoft.ru',
                 to: [
                   {
-                    email: 'admin@delightsoft.ru',
-                    name: 'admin',
-                    type: 'to'
-                  }, {
-                    email: 'pepelazz00@gmail.com',
-                    name: 'pepelazz',
-                    type: 'to'
-                  }, {
-                    email: 'zork33@gmail.com',
-                    name: 'zork',
+                    email: 'info@delightsoft.ru',
+                    name: 'info',
                     type: 'to'
                   }
                 ]
