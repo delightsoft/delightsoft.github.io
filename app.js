@@ -142,6 +142,9 @@ ngModule.config([
     }).when('/articles/dashboard', {
       templateUrl: '/tmpl/articles/dashboard.html',
       controller: setPageTitle('DelightSoft.ru / Дэшборд. Сколько стоит видеть свой бизнес на информационной &#34;ладони&#34;?')
+    }).when('/articles/info-space-terrain', {
+      templateUrl: '/tmpl/articles/info-space-terrain.html',
+      controller: setPageTitle('DelightSoft.ru / Новые бизнес возможности. Территория vs пространство.')
     }).when('/projects', {
       templateUrl: '/tmpl/projects/index.html',
       controller: setPageTitle('DelightSoft.ru / Проекты')
