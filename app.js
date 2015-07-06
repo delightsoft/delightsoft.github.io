@@ -145,6 +145,9 @@ ngModule.config([
     }).when('/articles/info-space-terrain', {
       templateUrl: '/tmpl/articles/info-space-terrain.html',
       controller: setPageTitle('DelightSoft.ru / Новые бизнес возможности. Территория vs пространство.')
+    }).when('/articles/info-cloud', {
+      templateUrl: '/tmpl/articles/info-cloud.html',
+      controller: setPageTitle('DelightSoft.ru / Новые бизнес возможности. Информация в &#34;облаках&#34;.')
     }).when('/projects', {
       templateUrl: '/tmpl/projects/index.html',
       controller: setPageTitle('DelightSoft.ru / Проекты')
